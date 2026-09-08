@@ -16,16 +16,7 @@ export default function Home() {
       <LifelineNav
         logo={<span className="text-sm font-medium">Processo</span>}
         logoLabel="Processo — Pitang"
-      >
-        <a
-          href="https://github.com/DaniloAmaralUX/processo"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm text-zinc-500 transition-colors duration-300 hover:text-black dark:hover:text-white"
-        >
-          GitHub
-        </a>
-      </LifelineNav>
+      />
 
       <LifelineStage>
         <Lifeline
